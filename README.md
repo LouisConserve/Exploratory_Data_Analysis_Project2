@@ -26,6 +26,7 @@ You can read each of the two files using the 𝚛𝚎𝚊𝚍𝚁𝙳𝚂() func
 
 # This first line will likely take a few seconds. Be patient!
 NEI <- readRDS("summarySCC_PM25.rds")
+
 SCC <- readRDS("Source_Classification_Code.rds")
 as long as each of those files is in your current working directory (check by calling 𝚍𝚒𝚛() and see if those files are in the listing).
 Assignmentless 
